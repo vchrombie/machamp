@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "machamp"
+version = "0.1.0"
+description = "A tool for batch uploading data files (JSON, Parquet, CSV, TSV) into OpenSearch."
+authors = ["Venu Vardhan Reddy Tekula <vt2182@nyu.edu>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
